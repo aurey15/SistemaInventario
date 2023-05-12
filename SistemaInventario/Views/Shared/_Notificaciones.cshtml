@@ -1,0 +1,21 @@
+﻿@using SistemaInventario.Utilidades
+
+@if (TempData[DS.Exitosa] != null)
+{
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script type="text/javascript">
+        toastr.success('@TempData[DS.Exitosa]');
+    </script>
+}
+
+
+@if (TempData[DS.Error] != null)//TempData son datos temporales que se pueden manejar atraves de los controladores a cualquier lugar del programa.
+{
+    //Si se encontro datos en el TempData
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script type="text/javascript">
+        toastr.error('@TempData[DS.Error]');
+    </script>
+}
