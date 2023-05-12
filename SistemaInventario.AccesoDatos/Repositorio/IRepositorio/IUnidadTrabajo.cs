@@ -12,20 +12,21 @@ namespace SistemaInventario.AccesoDatos.Repositorio.IRepositorio
         IBodegaRepositorio Bodega { get; }
 
         ICategoriaRepositorio Categoria { get; }
-        /*
+      
         IMarcaRepositorio Marca { get; }
-        IProductoRepositorio Producto { get; }
+        /*
+       IProductoRepositorio Producto { get; }
 
-        IUsuarioAplicacionRepositorio UsuarioAplicacion { get; }
+       IUsuarioAplicacionRepositorio UsuarioAplicacion { get; }
 
-        IBodegaProductoRepositorio BodegaProducto { get; }
-        IInventarioRepositorio Inventario { get; }
+       IBodegaProductoRepositorio BodegaProducto { get; }
+       IInventarioRepositorio Inventario { get; }
 
-        IInventarioDetalleRepositorio InventarioDetalle { get; }
+       IInventarioDetalleRepositorio InventarioDetalle { get; }
 
-        IKardexInventarioRepositorio KardexInventario { get; }
+       IKardexInventarioRepositorio KardexInventario { get; }
 
-        ICompaniaRepositorio Compania { get; }*/
+       ICompaniaRepositorio Compania { get; }*/
 
         Task Guardar();
     }
