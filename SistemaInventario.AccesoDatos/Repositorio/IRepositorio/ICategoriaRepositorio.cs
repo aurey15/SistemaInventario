@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace SistemaInventario.AccesoDatos.Repositorio.IRepositorio
 {
-    public interface ICategoriaRepositorio : IRepositorio<Categoria>
+    public interface IBodegaRepositorio : IRepositorio<Bodega>
     {
-        void Actualizar(Categoria categoria);
+        void Actualizar(Bodega bodega);
 
     }
 }   
