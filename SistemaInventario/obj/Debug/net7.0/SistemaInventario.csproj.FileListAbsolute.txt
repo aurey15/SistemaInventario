@@ -581,3 +581,5 @@ C:\Users\Administrador\source\repos\SistemaInventario\SistemaInventario\bin\Debu
 C:\Users\Administrador\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\Administrador\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Administrador\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Administrador\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Administrador\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
